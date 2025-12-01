@@ -39,7 +39,7 @@ int main(){
     html << "<p><b>Precio:</b> L.400</p>\n";
     html << "<img src=\"Privacidad_Monitor.jpeg\" alt=\"Producto 1\" width=\"200\" onclick=\"window.open(this.src)\">\n";
     html << "<img src=\"Privacidad_Monitor2.jpeg\" alt=\"Producto 1\" width=\"200\" onclick=\"window.open(this.src)\">\n";
-    html << "<p>Filtro de privacidad para monitor que bloquea hasta un 60% de la visibilidad lateral, evitando que otras personas vean tu pantalla.<br>Reduce reflejos, protege tus datos y brinda una experiencia de uso más segura. Ideal para oficinas, clases y trabajo remoto.</p>\n";
+    html << "<p>Filtro de privacidad para monitor que bloquea hasta un 60% de la visibilidad lateral, evitando que otras personas vean tu pantalla.<br>Reduce reflejos, protege tus datos y brinda una experiencia de uso m&aacute;s segura. Ideal para oficinas, clases y trabajo remoto.</p>\n";
     html << "</div>\n";
 
     html << "<div class='producto'>\n";
@@ -47,7 +47,15 @@ int main(){
     html << "<p><b>Precio:</b> L.500</p>\n";
     html << "<img src=\"Privacidad_Monitor.jpeg\" alt=\"Producto 2\" width=\"200\" onclick=\"window.open(this.src)\">\n";
     html << "<img src=\"Privacidad_Monitor_21.jpeg\" alt=\"Producto 2\" width=\"200\" onclick=\"window.open(this.src)\">\n"; 
-    html << "<p>Filtro de privacidad para monitor que bloquea hasta un 60% de la visibilidad lateral, evitando que otras personas vean tu pantalla.<br>Reduce reflejos, protege tus datos y brinda una experiencia de uso más segura. Ideal para oficinas, clases y trabajo remoto.</p>\n";
+    html << "<p>Filtro de privacidad para monitor que bloquea hasta un 60% de la visibilidad lateral, evitando que otras personas vean tu pantalla.<br>Reduce reflejos, protege tus datos y brinda una experiencia de uso m&aacute;s segura. Ideal para oficinas, clases y trabajo remoto.</p>\n";
+    html << "</div>\n";
+    
+    html << "<div class='producto'>\n";
+    html << "<h2>Cargador de Apple de 10W de USB-A a Lightning para Iphone e Ipad</h2>\n";
+    html << "<p><b>Precio:</b> L.450</p>\n";
+    html << "<img src=\"cargador_iphone2.jpeg\" alt=\"Producto 2\" width=\"200\" onclick=\"window.open(this.src)\">\n";
+    html << "<img src=\"cargador_iphone.jpeg\" alt=\"Producto 2\" width=\"200\" onclick=\"window.open(this.src)\">\n"; 
+    html << "<p>Cargador de 10&nbsp;W con conexi&oacute;n USB-A a Lightning para iPhone y iPad. Ofrece carga estable y r&aacute;pida, protecci&oacute;n contra sobrecalentamiento y dise&ntilde;o port&aacute;til ideal para viajes y uso diario.</p>\n";
     html << "</div>\n";
     
     html << "</body>\n";
