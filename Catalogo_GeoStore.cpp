@@ -55,7 +55,14 @@ int main(){
     html << "<p><b>Precio:</b> L.450</p>\n";
     html << "<img src=\"cargador_iphone2.jpeg\" alt=\"Producto 2\" width=\"200\" onclick=\"window.open(this.src)\">\n";
     html << "<img src=\"cargador_iphone.jpeg\" alt=\"Producto 2\" width=\"200\" onclick=\"window.open(this.src)\">\n"; 
-    html << "<p>Cargador de 10&nbsp;W con conexi&oacute;n USB-A a Lightning para iPhone y iPad. Ofrece carga estable y r&aacute;pida, protecci&oacute;n contra sobrecalentamiento y dise&ntilde;o port&aacute;til ideal para viajes y uso diario.</p>\n";
+    html << "<p>Cargador de 10&nbsp;W con conexi&oacute;n USB-A a Lightning para iPhone y iPad.<br> Ofrece carga estable y r&aacute;pida, protecci&oacute;n contra sobrecalentamiento y dise&ntilde;o port&aacute;til ideal para viajes y uso diario.</p>\n";
+    html << "</div>\n";
+
+    html << "<div class='producto'>\n";
+    html << "<h2>Cable DisplayPort Ultra HD 4k Argom Tech </h2>\n";
+    html << "<p><b>Precio:</b> L.300</p>\n";
+    html << "<img src=\"dp.jpeg\" alt=\"Producto 2\" width=\"200\" onclick=\"window.open(this.src)\">\n";
+    html << "<p>Cable DisplayPort Ultra HD 4K de 1.8m con conectores dorados, compatible con monitores y tarjetas gr&aacute;ficas 4K.<br> Garantiza una conexi&oacute;n estable, imagen n&iacute;tida y transferencia de datos r&aacute;pida. Ideal para oficinas, gaming y producci&oacute;n de contenido multimedia.</p>\n";
     html << "</div>\n";
     
     html << "</body>\n";
