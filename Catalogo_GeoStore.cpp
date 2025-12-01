@@ -30,7 +30,7 @@ int main(){
     html << "</script>\n";
 
     html << "</head>\n<body>\n";
-    html << "<h1>Catálogo de Productos</h1>\n";
+    html << "<h1>Cat&aacute;logo de Productos GeoStore</h1>\n";
 
  html << "<input type='text' id='search' class='buscador' placeholder='Buscar producto...' onkeyup='buscar()'>\n";
 
